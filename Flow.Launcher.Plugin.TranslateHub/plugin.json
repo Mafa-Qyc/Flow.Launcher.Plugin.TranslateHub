@@ -1,0 +1,12 @@
+{
+    "ID": "25DB5203-B34D-4E35-ABCA-8743D4069A90",
+    "ActionKeyword": "tl",
+    "Name": "TranslateHub",
+    "Description": "Fast multi-provider translation for Flow Launcher",
+    "Author": "AuthorName",
+    "Version": "0.1.0",
+    "Language": "csharp",
+    "Website": "https://github.com/AuthorName/Flow.Launcher.Plugin.TranslateHub",
+    "IcoPath": "icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.TranslateHub.dll"
+}

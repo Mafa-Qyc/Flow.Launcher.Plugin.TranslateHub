@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.TranslateHub</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.TranslateHub</PackageId>
+    <Authors>AuthorName</Authors>
+    <PackageProjectUrl>https://github.com/AuthorName/Flow.Launcher.Plugin.TranslateHub</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AuthorName/Flow.Launcher.Plugin.TranslateHub</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin translate</PackageTags>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Flow.Launcher.Plugin.TranslateHub</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
